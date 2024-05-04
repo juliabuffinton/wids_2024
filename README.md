@@ -25,3 +25,6 @@ _Example output:_
 2. Click the "Sign up" button in the upper right corner. (If you already have an account, click the "Sign in" button.)
 3. Complete the required fields and then click the "Create account" button.
 4. Make sure you are signed in for the exercises.
+
+---------------------
+**Stop! Do not proceed until workshop on May 6, 2024.**

@@ -36,12 +36,24 @@ Every repo is different, and there are many ways to configure each to meet their
    Option B: within Git Bash, navigate to your directory using `cd ` command.
 
 2. In Github, go back to "Code" in the top menu bar.
-3. Click the green "<> Code" button in the upper right. Make sure you are on the **HTTPS** tab; copy the URL to your clipboard.
+3. Click the green "<> Code" button in the upper right. Make sure you are on the **HTTPS** tab (we haven't set up SSH); copy the URL to your clipboard.
 4. In Git Bash, type `git clone ` (note the space after clone) and then paste (SHIFT+INS) the URL. 
 5. Navgiate into to that repository by typing `cd <your_repo_name>`.
 
-Branch protection:
-You can create a branch protection rule in a repository for a specific branch, all branches, or any branch that matches a name pattern you specify with fnmatch syntax. For example, to protect any branches containing the word release, you can create a branch rule for *release*.
+## Practice!
+Now, we are going to practice a few basic commands in git.
+
+### Make some local changes
+1. Open up your README file in your preferred editor (VS Code, Notepad, vim, etc.).
+2. Add the following line: `This is a sample README for WIDS DC 2024. In it, I will write some simple python code, edit it, and track changes.`
+3. Commit this change by going back to Git Bash, typing `git add README.md`. (you can always check the status of any file you've edited by typing `git status`)
+4. Type `git commit -m "modify readme"`.
+5. Create a new file called `hello.py`. Edit that file to add the python code `print("hello world")`. Save.
+6. Commit this change by going back to Git Bash, typing `git add hello.py` (pro tip: most terminals/Git Bash have tab complete) then `git commit -m "create hello.py; print hello world"`
+7. Check your log! What have you done so far? Type `git log --oneline`. The oneline flag will make it display each commit on one line which makes it easier to read.
+8. Add another line to your README, "I am learning git!".
+9. Before staging and committing that file, check what changed by typing `git diff README.md`.
+10. Then, add the file to the staging area and the commit it with a helpful message.
 
 
-https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rulegit 
+

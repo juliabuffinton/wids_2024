@@ -26,9 +26,6 @@ _Example output:_
 3. Complete the required fields and then click the "Create account" button.
 4. Make sure you are signed in for the exercises.
 
----------------------
-**Stop! Do not proceed until workshop on May 6, 2024.**
-
 ### Create a Personal Access Token
 1. From the Github home page, click on your profile picture in the upper right. Scroll down to settings at the bottom.
 2. On that page, scroll down to the bottom and click on "Developer Settings" in the left menu.

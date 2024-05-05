@@ -61,11 +61,11 @@ Now, we are going to practice a few basic commands in git.
 ### Make a new branch
 Now, create a new branch to change the code in our `hello.py` file.
 
-1. Create a new branch by typing `git checkout -b change_hello_msg`. This will create the new branch and immediately switch to that branch. (`git checkout` is used to check out specific commits or branches; if you add the `-b` flag it will gracefully create the new branch and switch to it. Otherwise, you need to type `git branch change_hello_msg and then git checkout change_hello_msg`.)
-2. Edit the hello.py file to change "world" to "WiDS". Save!
-3. Add and commit the file.
-4. Switch back to your main branch by typing `git checkout main`. Check the file again - has the text changed?
-5. Merge your changes into the main branch by typing `git merge change_hello_msg`.
-6. Check the log by typing `git log --oneline`. You should see each commit on main as well as the commits from the new branch since we've now merged them in.
-7. Push your changes to the remote repository and check them out in Github!
-8. Navigate to the `hello.py` file in Github, then click "History" in the upper right. Click on the title of the most recent commit to see exactly what changed.
+1. Create a new branch by typing `git branch change_hello_msg`. Switch to that branch using `git checkout change_hello_msg`. (Pro tip: do this in one command using `git checkout -b change_hello_msg`. This will create the new branch and immediately switch to that branch.)
+3. Edit the hello.py file to change "world" to "WiDS". Save!
+4. Add and commit the file.
+5. Switch back to your main branch by typing `git checkout main`. Check the file again - has the text changed?
+6. Merge your changes into the main branch by typing `git merge change_hello_msg`.
+7. Check the log by typing `git log --oneline`. You should see each commit on main as well as the commits from the new branch since we've now merged them in.
+8. Push your changes to the remote repository and check them out in Github!
+9. Navigate to the `hello.py` file in Github, then click "History" in the upper right. Click on the title of the most recent commit to see exactly what changed.

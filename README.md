@@ -28,3 +28,12 @@ _Example output:_
 
 ---------------------
 **Stop! Do not proceed until workshop on May 6, 2024.**
+
+### Create a Personal Access Token
+1. From the Github home page, click on your profile picture in the upper right. Scroll down to settings at the bottom.
+2. On that page, scroll down to the bottom and click on "Developer Settings" in the left menu.
+3. Click on "Personal Access Tokens" then "Tokens (classic)".
+4. In the upper right, click on "Generate a new token (classic)". You may be prompted to complete multi-factor authentication before moving onto the next page.
+5. Give it a descriptive note, then check the "repo" box. You do not need to change the default expiration, unless you are planning to use it beyond this workshop. You can always generate more, you just have to update any scripts that might reference it.
+6. Scroll to the bottom and click the green "Generate token" button!
+7. When your token is generated, SAVE IT SOMEWHERE. You will not see it again, but you will need it to interact with the remote repository.

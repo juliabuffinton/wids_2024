@@ -37,3 +37,7 @@ _Example output:_
 5. Give it a descriptive note, then check the "repo" box. You do not need to change the default expiration, unless you are planning to use it beyond this workshop. You can always generate more, you just have to update any scripts that might reference it.
 6. Scroll to the bottom and click the green "Generate token" button!
 7. When your token is generated, SAVE IT SOMEWHERE. You will not see it again, but you will need it to interact with the remote repository.
+
+You can use a credential manager so you don't have to add your token every time you push or pull. For details on how to do that, [check out this page](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls).
+
+**Preferred method**: [Set up SSH!](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) 

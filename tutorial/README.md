@@ -55,5 +55,17 @@ Now, we are going to practice a few basic commands in git.
 9. Before staging and committing that file, check what changed by typing `git diff README.md`.
 10. Then, add the file to the staging area and the commit it with a helpful message.
 
+### Push your changes to the remote repo
+1. Type `git push`. Enter any credentials you are prompted for.
+2. Navigate to the remote repository in your browser (there will be a link the second-to-last line in the output after you push. Check to make sure your changes are there!
 
+### Make a new branch
+Now, create a new branch to change the code in our `hello.py` file.
 
+1. Create a new branch by typing `git branch -b change_hello_msg`. This will create the new branch; the `-b` flag also immediately switches to that branch.
+2. Edit the hello.py file to change "world" to "WiDS".
+3. Add and commit the file.
+4. Switch back to your main branch by typing `git checkout main`. Check the file again - has the text changed?
+5. Merge your changes into the main branch by typing `git merge change_hello_msg`.
+6. Check the log by typing `git log --oneline --graph`. You should see each commit on main, where we branch to the new branch, commits made there, and when it comes back together.
+7. Push your changes to the remote repository and check them out in Github!

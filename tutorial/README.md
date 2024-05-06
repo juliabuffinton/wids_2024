@@ -30,9 +30,9 @@ Every repo is different, and there are many ways to configure each to meet their
 
 ## Clone Your Repo
 
-1. In Git Bash or terminal, navigate to the directory you'd like to put this repo in (e.g., the directory that will be the parent of your repo). **It is very important that you do NOT clone this repository into an existing git-tracked repository.**
-     1.Option A: using file explorer, navigate to the directory. Copy the address. In Git Bash, type `cd ` (note the space after cd) and then paste the address (SHIFT+INS). If your path has spaces in it, you'll need to add double quotes around it.
-     2. Option B: within Git Bash, navigate to your directory using `cd ` command.
+1. In Git Bash or terminal, navigate to the directory you'd like to put this repo in (e.g., the directory that will be the parent of your repo). **It is very important that you do NOT clone this repository into an existing git-tracked repository.**  
+     1.  Option A: using file explorer, navigate to the directory. Copy the address. In Git Bash, type `cd ` (note the space after cd) and then paste the address (SHIFT+INS). If your path has spaces in it, you'll need to add double quotes around it.  
+     2.  Option B: within Git Bash, navigate to your directory using `cd ` command.
 
 3. In Github, go back to "Code" in the top menu bar.
 4. Click the green "<> Code" button in the upper right. Make sure you are on the **HTTPS** tab (we haven't set up SSH); copy the URL to your clipboard.
@@ -45,7 +45,7 @@ Now, we are going to practice a few basic commands in git.
 ### Make some local changes
 1. Open up your README file in your preferred editor (VS Code, Notepad, vim, etc.).
 2. Add the following line: `This is a sample README for WIDS DC 2024. In it, I will write some simple python code, edit it, and track changes.`
-3. Commit this change by going back to Git Bash, typing `git add README.md`. (you can always check the status of any file you've edited by typing `git status`)
+3. Add this change to the staging area by going back to Git Bash, typing `git add README.md`. (you can always check the status of any file you've edited by typing `git status`)
 4. Type `git commit -m "modify readme"`.
 5. Create a new file called `hello.py`. Edit that file to add the python code `print("hello world")`. Save.
 6. Commit this change by going back to Git Bash, typing `git add hello.py` (pro tip: most terminals/Git Bash have tab complete) then `git commit -m "create hello.py; print hello world"`
